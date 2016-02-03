@@ -2,7 +2,7 @@
   "name": "@f/animate",
   "description": "Animate properties using requestAnimationFrame and a custom render function",
   "repository": "git://github.com/micro-js/animate.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
