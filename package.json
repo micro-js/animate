@@ -9,6 +9,7 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
+    "@f/elapsed-time": "^1.0.0",
     "@f/raf": "^1.0.0",
     "@f/tween": "^1.0.0"
   },

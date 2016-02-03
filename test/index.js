@@ -12,10 +12,13 @@ var test = require('tape')
 test('should work', function (t) {
   t.plan(1)
 
-  animate({width: 10}, {width: 100}, function (frame, tick) {
-    if (tick === 0) {
-      t.deepEqual(frame, {width: 10})
+  var n = 0
+  animate({width: 10}, {width: 100}, function (frame) {
+    if (n === 0) {
+      t.ok(frame.width <= 11)
       t.end()
     }
+
+    n++
   })
 })
